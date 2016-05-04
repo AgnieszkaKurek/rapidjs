@@ -1,12 +1,18 @@
-var total = 99.99;
-var freeShipping;
-var savings;
-if (total >= 100.00){
-freeShipping = true;
-savings = 29.99;
+var orderTotal = 99.99;
+var discount;
+
+switch(true) {
+    case orderTotal >= 50 && orderTotal < 75:
+    discount = 10;
+    break;
+ case orderTotal >= 75 && orderTotal < 100:
+     discount = 20;
+     break;
+ case orderTotal >= 100:
+     discount = 30;
+     break;
+ default:
+ discount = 0;
+    
 }
-else {
-freeShipping = false;
-savings = 0;
-}
-console.log(savings);
+console.log(discount);
