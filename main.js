@@ -1,18 +1,6 @@
-var orderTotal = 99.99;
-var discount;
-
-switch(true) {
-    case orderTotal >= 50 && orderTotal < 75:
-    discount = 10;
-    break;
- case orderTotal >= 75 && orderTotal < 100:
-     discount = 20;
-     break;
- case orderTotal >= 100:
-     discount = 30;
-     break;
- default:
- discount = 0;
-    
+var lineItemCount = 3;
+var currentItem = 0;
+while (currentItem <lineItemCount) {
+    console.log("item: " + currentItem);
+    currentItem++;
 }
-console.log(discount);
