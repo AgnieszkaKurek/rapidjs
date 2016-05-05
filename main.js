@@ -1,7 +1,3 @@
 var lineItemCount = 3;
-var currentItem = undefined;
-
-do {
-    console.log("item: " + currentItem);
-    currentItem++;
-} while (currentItem < lineItemCount);
+for (var i = 0; i < lineItemCount; i++)
+console.log(i);
