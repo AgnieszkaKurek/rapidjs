@@ -1,5 +1,5 @@
 var lineItemCount = 3;
-var currentItem = 0;
+var currentItem = undefined;
 
 do {
     console.log("item: " + currentItem);
