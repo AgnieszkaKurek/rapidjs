@@ -1,7 +1,10 @@
 var lineItemCount = 5;
 
-for (var i = 0;i < lineItemCount; i++) {
+outerLoop:
+for (var i = 0; i < lineItemCount; i++) {
+    for (var j = 0; j < 3; j++) {
+        if (j == 1)
+        continue outerLoop;
+    }
     console.log(i);
-    if (i == 1)
-    break;
 }
