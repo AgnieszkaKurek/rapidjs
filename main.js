@@ -1,10 +1,10 @@
+'use strict';
 
-var description = 'orginal product';
- function updateProduct() {
-     var description = 'update product';
-     var updateProductId = function () {
-     console.log(description);
- }
-updateProductId();
+console.log(insideCatch);
+try {
+    throw 123;
 }
-updateProduct();
+catch (e) {
+    var insideCatch = 'insideCatch';
+    console.log(e);
+}
