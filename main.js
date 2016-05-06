@@ -1,7 +1,9 @@
-function updateProduct() {
-var description = 'update product';
-var updateProductId = function () {
-    console.log(description);
+
+var description = 'orginal product';
+ function updateProduct() {
+     var description = 'update product';
+     var updateProductId = function () {
+     console.log(description);
  }
 updateProductId();
 }
