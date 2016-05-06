@@ -1,6 +1,6 @@
-var description = 'hardware product' ;
+var description = 'orginal  product' ;
 function updateProduct() {
-    description = 'update product';
+    var description = 'update product';
 }
 
 updateProduct();
