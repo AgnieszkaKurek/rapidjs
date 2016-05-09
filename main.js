@@ -1,5 +1,8 @@
-var  obj = {
-    calc: 'Logical AND'
+var  defaultSettings = {
+    who:'default'
 };
-var value = true && obj;
+var userSetting = {
+    who: 'user'
+};
+var value = userSetting || defaultSettings;
 console.log(value);
