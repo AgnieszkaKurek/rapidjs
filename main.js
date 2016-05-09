@@ -1,5 +1,5 @@
-var obj ={
- valueOf: function () {return 100;}
-};
-var total = 300 - obj;
+
+var total = 1.1 * 1.1;
 console.log(total);
+ if (total != 1.21)
+    console.log('Big Problem!')
