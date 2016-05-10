@@ -1,5 +1,7 @@
-var ratings = [];
-ratings.push(5);
-ratings.push(2, 4);
-var firstRating = ratings.shift();
-console.log(firstRating);
+var ratings = [4, 1, 3, 2, 10];
+ratings.sort(function (value1, value2)  {
+    return value1 - value2;
+});
+
+
+console.log(ratings.toString());
