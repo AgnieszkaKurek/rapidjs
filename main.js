@@ -1,8 +1,4 @@
-var  defaultSettings = {
-    who:'default'
-};
-var userSetting = {
-    who: 'user'
-};
-var value = userSetting || defaultSettings;
-console.log(value);
+if (true == 1)
+console.log('true');
+else
+   console.log('false')
