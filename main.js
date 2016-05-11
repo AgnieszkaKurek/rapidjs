@@ -1,7 +1,8 @@
-var project = new Object();
-project.name = 'Project Phoenix';
-project.securityLevel = 15;
-project.updateDueDate = function () {
-    return true;
+var project = { 
+    name: 'Project Phoenix',
+    securityLevel: 15,
+    updateDueDate: function () {
+        return true;
+    }
 };
-console.log(project.updateDueDate());
+console.log(project.name);
